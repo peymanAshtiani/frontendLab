@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #e4e4e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  height: 690px;
+  width: 1250px;
+  border-radius: 25px;
+}
+.header-container {
+  margin: 10px;
+}
+.header-color {
+  color: #005c66;
+}
+.header {
+  font-size: 28px;
+  margin: 10px;
+}
+p {
+  color: #79716b;
+  font-size: 14px;
+}
+.card {
+  position: relative;
+  background-color: white;
+  width: 380px;
+  height: 380px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 5px rgb(184, 184, 184);
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card-img {
+  width: 380px;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 15px;
+}
+.blog-section {
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+}
+.badge {
+  background-color: #e5eeef;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 2px 10px 4px 10px;
+  border-radius: 15px;
+}
+h2 {
+  color: oklch(26.9% 0 0);
+  font-size: 16px;
+  margin: 0px 0px 7px 0px;
+}
+.card-description {
+  width: 325px;
+  padding-bottom: 6px;
+}
+.btn {
+  background-color: #005c66;
+  border-radius: 6px;
+  color: white;
+  padding: 5px 12px 8px 12px;
+  font-size: 14px;
+  margin: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+.btn:hover {
+  background-color: #317b83;
+}
+.para {
+  color: #005c66;
+  /* margin-left: 23px; */
+  font-weight: 500;
+  font-size: 14px;
+}
+.icon {
+  color: #005c66;
+  font-size: 13px;
+}
+/* .icon::before {
+  left: 96px;
+  position: absolute;
+  bottom: 11px;
+} */
+.footer-card {
+  transition: transform 0.2s ease-in-out;
+}
+.footer-card:hover {
+  transform: translateX(8px);
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+.badge-wrapper {
+  display: flex;
+  gap: 5px;
+}
