@@ -1,0 +1,30 @@
+body {
+  background-color: #f3cb5c;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttom {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 45px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.2s ease;
+  border: none;
+  font-size: 20px;
+  display: block;
+  width: 250px;
+  height: auto;
+  background-color: #eea743;
+  box-shadow: 0px 10px #e09e3f;
+  color: #fff;
+}
+.buttom:hover {
+  box-shadow: 0px 10px #ca832e;
+}
+.buttom:active {
+  transform: translateX(10px);
+  box-shadow: none;
+}
