@@ -38,7 +38,7 @@ A responsive landing page built with HTML5 and CSS3 as part of the Frontend Fund
 
 
 ## Live Demo
-[https://ladantaheri.github.io/frontend-fundamentals-lab/landing-pages/transit-landing-page](https://peymanashtiani.github.io/frontendLab/landing/transit/app.html)
+(https://peymanashtiani.github.io/frontendLab/landing/transit/app.html)
 
 ## Author
 
